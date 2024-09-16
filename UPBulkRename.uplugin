@@ -1,17 +1,15 @@
 {
-	"FileVersion" : 3,
+	"FileVersion" : 1,
 	"Version" : 1,
 	"VersionName" : "1.0",
 	"FriendlyName" : "UP Bulk Rename",
 	"Description" : "A bulk rename tool with special hack to fix perforce related issues",
 	"Category" : "Editor",
 	"CreatedBy" : "Puf Studio",
-	"DocsURL" : "",
-	"MarketplaceURL" : "",
+	"DocsURL" : "https://pufstudio.net/projects/up_bulk_rename",
+	"MarketplaceURL" : "com.epicgames.launcher://ue/marketplace/product/f90d854fe47b4d4d9e32204c9ebff6d2",
 	"SupportURL" : "",
-	"CanContainContent" : false,
-	"IsBetaVersion" : false,
-	"Installed" : false,
+    "EngineVersion": "5.4.0",
 	"Modules" : [
 		{
 			"Name" : "UPBulkRename",
@@ -20,6 +18,9 @@
 			"WhitelistPlatforms": [
 				"Win64",
 				"Linux"
+			],
+			"PlatformDenyList": [
+				"Mac"
 			]
 		}
 	],
